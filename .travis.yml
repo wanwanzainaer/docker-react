@@ -10,6 +10,6 @@ script:
 deploy:
   provider: gae
   keyfile: "My First Project-de43119b4317.json.enc"
-  project: "axial-sight-241203"
+  project: "docker"
   on:
     branch: master
