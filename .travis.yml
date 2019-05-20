@@ -10,6 +10,6 @@ script:
 deploy:
   provider: gae
   keyfile: de43119b4317.json
-  project: docker
+  project: axial-sight-241203
   on:
     branch: master
