@@ -9,7 +9,7 @@ script:
   - docker run wanwanzainaer/docker-react npm test -- --coverage
 deploy:
   provider: gae
-  keyfile: My First Project-de43119b4317.json.enc
+  keyfile: de43119b4317.json
   project: docker
   on:
     branch: master
